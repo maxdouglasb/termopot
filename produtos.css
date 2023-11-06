@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.produtos_sobre_descricao{
+    display: flex;
+    margin: 3em 6em ;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.produto_logo{
+    width: 30em;
+}
+.produtos_sobre_descricao_texto{
+    width: 40%;
+    
+}
+.produtos_sobre_descricao_texto h2{
+    color: #1738a4;
+    font-weight: 700;
+}
+.produtos_sobre_descricao_texto p{
+    color: #43919b;
+}
+.catalago{
+    background-color: transparent;
+    border: 2px solid #43919b;
+    padding: 0.5em;
+    border-radius: 12px;
+    font-weight: 700;
+    color: #1738a4;
+   
+    
+
+    
+}
+.catalago:hover{
+    background-color: #b7eef5;
+    color: #1738a4;
+    text-decoration: none;
+}
+
+.lista_produtos , .produtos_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    gap: 4em;
+}
+
+.produtos_img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.lista_produtos-diversos {
+    border-radius: 12px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    margin: 0 2em;
+}
+.lista_produtos-diversos img{
+    width: 225px;
+    border-radius: 12px 12px 0 0;
+    
+}
+.lista_produtos-diversos h3{
+    background-color: #43919b;
+    color: #1738a4;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.lista_produtos-diversos p{
+    color: #1738a4;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: start;
+    background-color: #b7eef5;
+    font-size: 14px;
+}
+.lista_produtos-diversos div{
+    background-color: #b7eef5;
+    margin-top: -10px;
+    padding: 1em;
+    border-radius: 0 0 12px 12px;
+}
